@@ -30,6 +30,13 @@ class Form implements HasActions, HasShortcodes {
 	 * Register assets.
 	 */
 	public function register_assets() {
+		wp_enqueue_style(
+			'empire-artist-referral-form',
+			get_plugin_file_uri( 'assets/css/style.css' ),
+			[],
+			filemtime( get_plugin_file_path( 'assets/css/style.css' ) ),
+		);
+
 		wp_register_script(
 			'empire-artist-referral-form',
 			get_plugin_file_uri( 'assets/js/form.js' ),

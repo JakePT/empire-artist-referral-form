@@ -1,0 +1,35 @@
+.empire-artist-referral-form {}
+
+.empire-artist-referral-form .empire-artist-referral-form__form {
+	display: flex;
+	font-size: 1.25em;
+	margin-bottom: 1rem;
+}
+
+.empire-artist-referral-form .empire-artist-referral-form__form .empire-artist-referral-form__input,
+.empire-artist-referral-form .empire-artist-referral-form__form .empire-artist-referral-form__submit {
+	height: 4em;
+	font-size: 1em !important;
+}
+
+.empire-artist-referral-form .empire-artist-referral-form__form .empire-artist-referral-form__input {
+	flex-grow: 2;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	text-align: center;
+}
+
+.empire-artist-referral-form .empire-artist-referral-form__form .empire-artist-referral-form__submit {
+	min-width: 4em;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.empire-artist-referral-form .empire-artist-referral-form__messages p {
+	padding: 0.25em;
+	border: 1px solid rgba(100,0,0,0.3);
+	border-radius: 3px;
+	text-align: center;
+	background: rgba(255,100,100,0.3);
+	color: rgba(100,0,0,1);
+}
