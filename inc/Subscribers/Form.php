@@ -34,7 +34,7 @@ class Form implements HasActions, HasShortcodes {
 			'empire-artist-referral-form',
 			get_plugin_file_uri( 'assets/css/style.css' ),
 			[],
-			filemtime( get_plugin_file_path( 'assets/css/style.css' ) ),
+			filemtime( get_plugin_file_path( 'assets/css/style.css' ) )
 		);
 
 		wp_register_script(
