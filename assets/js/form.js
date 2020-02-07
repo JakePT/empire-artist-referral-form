@@ -1,3 +1,5 @@
+/* global empireArtistReferralFormConfig, jQuery */
+
 var empireArtistReferralForm = ( function( $ ) {
 	var config    = window.empireArtistReferralFormConfig;
 	var $form     = $( '.empire-artist-referral-form__form' );
@@ -74,6 +76,7 @@ var empireArtistReferralForm = ( function( $ ) {
 	 * Bind events.
 	 */
 	var init = function() {
+		$submit.prop( 'disabled', false );
 		$form.on( 'submit', lookupReferralLink );
 	};
 
