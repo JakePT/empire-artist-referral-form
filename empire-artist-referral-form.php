@@ -4,6 +4,7 @@
  * Plugin URI:  https://empire-artist.com
  * Description: A WordPress plugin that provides a form for redirecting users to their referrer's unique link, based on their email address.
  * Author:      Jacob Peattie
+ * Text Domain: empire-artist-referral-form
  */
 namespace EmpireArtist\ReferralForm;
 

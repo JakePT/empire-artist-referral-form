@@ -61,7 +61,7 @@ class RestReferralLinks implements HasActions {
 		if ( ! $user ) {
 			return new WP_Error(
 				'empire_artist_referral_form_email_not_found',
-				 __( 'No referrer found with that email address', 'empire-artist-referral-form' ),
+				 __( 'No referrer found with that email address.', 'empire-artist-referral-form' ),
 	 			[ 'status' => 400 ]
 			);
 		}

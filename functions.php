@@ -8,7 +8,7 @@ defined( 'ABSPATH' ) || exit;
  *
  * @return string The URL to a file in the plugin.
  */
-function get_plugin_file_uri( $path ) {
+function get_plugin_file_uri( $path = '' ) {
 	return plugin_dir_url( __FILE__ ) . $path;
 }
 
@@ -17,6 +17,6 @@ function get_plugin_file_uri( $path ) {
  *
  * @return string The full path to a file in the plugin.
  */
-function get_plugin_file_path( $path ) {
+function get_plugin_file_path( $path = '' ) {
 	return plugin_dir_path( __FILE__ ) . $path;
 }
